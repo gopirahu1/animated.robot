@@ -1,0 +1,227 @@
+.face{
+    height: 150px;
+    width: 200px;
+    border: 2px solid black;
+    margin-left: 30%;
+    border-start-start-radius:100px;
+    border-top-right-radius: 100px;
+    background-color: blueviolet;
+    animation: eye1 2s infinite;
+
+}
+.eye1{
+    height: 25px;
+    width: 40px;
+    border-radius: 40%;
+    border: 2px solid black;
+    margin-left:40px;
+    margin-top: 55px;
+    position: absolute;
+    background-color: black;
+    animation: eye2 5s infinite;
+}
+.eye2{
+height: 25px;
+    width: 40px;
+    border-radius: 40%;
+    border: 2px solid black;
+    margin-left:107px;
+    margin-top: 55px;
+background-color: black;
+animation: eye10 5s infinite;}
+
+.body{
+    height: 170px;
+    width: 200px;
+    border: 2px solid black;
+    margin-left: 30%;
+    background-color: blueviolet;
+    position: relative;
+}
+.handl{
+    height: 150px; 
+    width: 40px;
+    border:  2px solid black;
+    border-radius: 100px;
+    right: 210px;
+    position: absolute;
+    background-color:pink;
+    animation: hand1 2s infinite;
+}
+.hand2{
+    height: 150px; 
+    width: 40px;
+    border:  2px solid black;
+    border-radius: 100px;
+    left: 210px;
+    position: absolute;
+    background-color: pink;
+    animation: hand2 2s infinite;
+
+}
+.leg1{ 
+    height: 160px; 
+    width: 40px;
+    border:  2px solid black;
+    border-radius: 100px;
+    top: 154px;
+    right: 150px;
+    position: absolute;
+    background-color: pink;
+    z-index: -1;
+    animation: leg1 2s infinite;
+
+}
+.leg2{
+    height: 160px; 
+    width: 40px;
+    border:  2px solid black;
+    border-radius: 100px;
+    top: 154px;
+    left: 150px;
+    position: absolute;z-index: -1;
+    background-color: pink;
+    animation: leg2 2s infinite;
+
+}
+.thoppa{
+    height: 110px;
+    width: 100px;
+    border: 2px solid black;
+    margin-left: 25%;
+    margin-top: 15%;
+    background-color:pink;
+    animation: vayir 2s infinite;
+
+}
+@keyframes leg1 {
+    0%{
+        transform: rotate(0deg);
+        transform-origin: top center;
+    }
+ 
+    
+    50%{
+        transform: rotate(45deg);
+        transform-origin: top center;
+    }
+   
+    
+    100%{
+        transform: rotate(0deg);
+        transform-origin: top center;
+    }
+}
+@keyframes leg2 {
+    0%{
+        transform: rotate(45deg);
+        transform-origin: top center;
+    }
+  
+    50%{
+        transform: rotate(0deg);
+        transform-origin: top center;
+    }
+   
+    100%{
+        transform: rotate(45deg);
+        transform-origin: top center;
+    }
+}
+@keyframes hand1{
+    0%{
+    transform: rotate(45deg);
+    transform-origin: top center;
+}
+
+50%{
+    transform: rotate(0deg);
+    transform-origin: top center;
+}
+
+100%{
+    transform: rotate(45deg);
+    transform-origin: top center;
+}
+}
+@keyframes hand2{
+0%{
+    transform: rotate(0deg);
+    transform-origin: top center;
+}
+
+
+50%{
+    transform: rotate(45deg);
+    transform-origin: top center;
+}
+
+
+100%{
+    transform: rotate(0deg);
+    transform-origin: top center;
+}
+}
+@keyframes eye2{
+    0%{
+    height:0px;}
+    25%{
+  height: 25px;
+    }
+    50%{height: 5px;}
+    75%{
+  height:25px;
+    }
+    100%{
+        height: 0px; 
+        background-color: red;
+    }
+}
+@keyframes eye10{
+    0%{
+    height:0px;}
+    25%{
+  height: 25px;
+    }
+    50%{height: 5px;}
+    75%{
+  height:25px;
+    }
+    100%{
+        height: 0px; 
+        background-color: red;
+    }
+}
+@keyframes vayir{
+    0%{
+        rotate: 0px;
+        filter: blur(23px);
+    }
+        25%{
+       rotate: 25px;
+       filter: blur(23px);
+        }
+
+        50%{rotate: 5px;
+            filter: blur(23px);
+        }
+        75%{
+      rotate:25px;
+      filter: blur(23px);
+        }
+
+        100%{
+            rotate: 0px; 
+            filter: blur(23px);
+            
+        }
+}
+body{
+    margin-left: 250px;
+    margin-top: 130px;
+}
+    
+
+    
+
+
